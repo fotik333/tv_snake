@@ -1,0 +1,115 @@
+{
+	"frames": {
+		"apple": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 400,
+				"h": 431
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 400,
+				"h": 431
+			},
+			"sourceSize": {
+				"w": 400,
+				"h": 431
+			}
+		},
+		"eyes": {
+			"frame": {
+				"x": 1,
+				"y": 434,
+				"w": 485,
+				"h": 165
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 485,
+				"h": 165
+			},
+			"sourceSize": {
+				"w": 485,
+				"h": 165
+			}
+		},
+		"part": {
+			"frame": {
+				"x": 403,
+				"y": 1,
+				"w": 320,
+				"h": 321
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 320,
+				"h": 321
+			},
+			"sourceSize": {
+				"w": 320,
+				"h": 321
+			}
+		},
+		"small_light": {
+			"frame": {
+				"x": 488,
+				"y": 324,
+				"w": 330,
+				"h": 330
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 330,
+				"h": 330
+			},
+			"sourceSize": {
+				"w": 330,
+				"h": 330
+			}
+		},
+		"tounge": {
+			"frame": {
+				"x": 725,
+				"y": 1,
+				"w": 79,
+				"h": 84
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 84
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 84
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "assets.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 819,
+			"h": 655
+		},
+		"scale": "1"
+	}
+}

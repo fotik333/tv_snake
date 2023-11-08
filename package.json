@@ -1,0 +1,50 @@
+{
+  "name": "domino_1",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "demo": "webpack --mode production --config webpack.config.production_demo.js",
+    "build_snd": "webpack --mode production --config webpack.config.production_snd.js",
+    "build_no_snd": "webpack --mode production --config webpack.config.production_no_snd.js",
+    "convert": "babel src -d build",
+    "start": "webpack-dev-server --config webpack.config.dev.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pixi/core": "^7.1.2",
+    "@pixi/display": "^7.1.2",
+    "@pixi/graphics": "^7.1.2",
+    "@pixi/mesh": "^7.1.2",
+    "@pixi/sprite": "^7.1.2",
+    "@pixi/text-bitmap": "^7.1.2",
+    "@tweenjs/tween.js": "18.6.4",
+    "file-loader": "6.2.0",
+    "howler": "2.2.3",
+    "html-inline-script-webpack-plugin": "2.0.3",
+    "html-webpack-plugin": "5.5.0",
+    "json-loader": "0.5.7",
+    "pixi-filters": "^5.1.1",
+    "pixi.js": "^7.1.2",
+    "raw-loader": "4.0.2",
+    "webpack": "5.65.0",
+    "webpack-dev-server": "4.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.16.5",
+    "@babel/plugin-transform-runtime": "7.16.5",
+    "@babel/preset-env": "7.16.5",
+    "@babel/preset-react": "7.16.5",
+    "babel-cli": "6.26.0",
+    "babel-loader": "8.2.3",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "html-webpack-inline-source-plugin": "0.0.10",
+    "url-loader": "4.1.1",
+    "webpack-cli": "4.10.0"
+  }
+}
